@@ -1,0 +1,307 @@
+\documentclass[8pt, a4paper]{article}
+\usepackage{graphicx}
+\graphicspath{{images/}} % Required for inserting images
+\usepackage[english, russian]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{fullpage}
+\usepackage{geometry}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\setcounter{page}{33}
+\geometry{top=5mm}
+\geometry{bottom=30mm}
+\geometry{left=30mm}
+\geometry{right=30mm}
+\usepackage{float}
+\DeclareGraphicsExtensions{.png}
+\newcommand{\RomanNumeralCaps}[1]
+    {\MakeUppercase{\romannumeral #1}}
+
+\fancyhf{}
+
+\begin{document}
+
+\begin{multicols}{2}
+
+\[
+ \sigma_2 (\langle\textit{A,B} \rangle)  = \pi_2 (2^{\emptyset+	\Sigma_{x\in A \cup B} \lbrace x \rbrace })
+\]
+\[
+\pi_2 (B) = \lbrace h(x) \mid x \in B \rbrace
+\]
+\[
+h(\emptyset) = \emptyset
+\]
+\[
+\lbrace h(a) \mid (a \in A) \bigwedge (h(a)=a) \rbrace = A
+\]
+\[
+h(X) = \emptyset \cup \bigcup_{x \in X} \lbrace 2^{ \lbrace h(x) \rbrace } \rbrace  
+\]
+where \textit{h} defines a mutually unambiguous mapping of
+generalized unoriented hereditarily finite sets into generalized ultra-unoriented hereditarily finite sets.
+
+\\{In this case:}
+ \[
+ A^{(+_2^\ast)} \subseteq A^{(+_1^\ast)}
+ \]
+      Together with generalized unoriented finite sets, generalized ultra-unoriented finite sets can be mapped mutually
+unambiguously to inherited finite sets.
+
+\\ The classical mathematical model works with justified (grounded) sets, but some non-classical models
+correspond to other structures. While the structure of
+hereditarily finite sets is acyclic and involves various
+hierarchies, other (e.g., cholarchical [65] structures consist of elements where each element is a part and is a
+whole (composed of parts). Some such structures can
+be visualized as periodic or cyclic structures. Another
+example of structures that may not fit within the framework of classical mathematical models are non-trivially
+automorphic structures, since such models adhere to the
+abstraction of identity,. However, despite this, some of
+these “non-classical” structures can (under certain conditions) be represented by classical mathematical models.
+First of all, among such structures we will be interested
+in enumerable structures, i.e., such structures that can be
+enumerated.
+
+\\ Let us consider the representation of \textit{$A^{(+^ \ast_3)}$} in generalized hereditarily finite sets of the class of countably
+non-identically-equal generalized hereditarily finite sets
+on the alphabet \textit{\.A}, which can be given according to the
+expressions:
+
+\[
+\tau_3 (B) \stackrel{def}{=} B
+\]
+\[ \rho_3 (\langle A,B \rangle) = C  \times (A \cup B)^\ast\]
+\[
+\sigma_3(\langle A,B \rangle) = D \times \pi_3(2^{\emptyset+	\Sigma_{x\in A \cup B} \lbrace x \rbrace })
+\]
+\[
+\pi_3 (B) = B
+\]
+\begin{equation*}
+a_{2k+1} = 
+ \begin{cases}
+   &\text{${\dot{a}_k}| k \leq| \dot{A}  \mid$}\\
+   &\text{$d(2 \ast k + 1) | k > | \dot{A} \mid$}
+ \end{cases}
+\end{equation*}
+\[
+a_{2k} = d(2 \ast k)
+\]
+\[C \cup D = E\]
+\[ E = \{ a_{2k} \mid (a_{2k} \in \dot{A}) \bigwedge (k \in \mathbb{N} ) \]
+\[ E \subseteq A\]
+If
+\[ C \cap D = \emptyset\]
+then the representations of oriented sets in \textit{$A^{(+^ \ast_3)}$}
+will not intersect with the representations of unoriented sets
+in \textit{$A^{(+^ \ast_3)}$} 
+\par {Fulfilled:}
+\[
+ A^{(+_3^\ast)} \subseteq A^{(+_1^\ast)}
+ \]
+Together with generalized finite sets, representations of
+countable non-identically-equal generalized hereditarily
+finite sets can be mapped one-to-one onto hereditarily
+finite sets.
+\par The representation of \textit{$A^{(+^ \ast_4)}$} is analogous to \textit{$A^{(+^ \ast_2)}$}.
+\par The representation of classes of unorient mixed countably non-identically-equal generalized hereditarily finite
+sets can be given according to the expressions:
+\[ \tau_5 (\textit{A}) = (2^{\emptyset+	\Sigma_{x\in A } \lbrace x\rbrace})\]
+\[\rho_5 = \rho_3\]
+\[\sigma_5 = \sigma_3\]
+\[\pi_5 = \pi_3\]
+The representation of classes of orient mixed countably
+non-identically-equal generalized hereditarily finite sets
+can be given according to the expressions:
+
+\[ \tau_6 (\textit{A}) = \textit{A}^{(\ast ^ 1)}\]
+\[\rho_6 = \rho_3\]
+\[\sigma_6 = \sigma_3\]
+\[\pi_6 = \pi_3\]
+\\ Consider the representation of:
+    \textit{$A^{(+^ \ast_6)}$} 
+    in generalized
+hereditarily finite sets of the class of countably nonidentically-equal generalized hereditarily finite sets on
+the alphabet \textit{\.A} with codes $\ddot{A}$, which can be given
+according to expressions:
+
+\[
+\tau_7 (B) \stackrel{def}{=} B
+\]
+\[ \rho_7 (\langle A,B \rangle) = C  \times (A \cup B)^\ast\]
+\[
+\sigma_7(\langle A,B \rangle) = D \times \pi_7  (2^{\emptyset+	\Sigma_{x\in A \cup B} \lbrace x \rbrace })
+\]
+\[
+\pi_7 (B) = B
+\]
+\begin{equation*}
+a_{2k+1} = 
+ \begin{cases}
+   &\text{${\dot{a}_k}| k \leq | \dot{A}  \mid$}\\
+   &\text{$d(2 \ast k + 1) | k > | \dot{A} \mid$}
+ \end{cases}
+\end{equation*}
+\[
+a_{2k} = d(2 \ast k)
+\]
+\[C \cup D = E\]
+\[ E = \{ a_{2k} \mid (a_{2k} \in \dot{A}) \bigwedge (k \in \mathbb{N} ) \]
+\[ E \subseteq A\]
+
+where
+
+\[ \ddot{A} \cap \mathbb{N} \neq \emptyset \]
+If a number in $\ddot{A}$ is the Ackermann coding of the corresponding set in the representation of enumerably selffounded generalized hereditarily finite sets by hereditarily
+finite sets, then such a set is self-founded, i.e. this set is
+considered as an element of the alphabet at the same
+position in \.A as its code $\ddot{A}$ .
+\par To ensure the enumerability of self-founded generalized hereditarily finite sets, it is required to ensure
+that they are all finitely mutually-founded, that is, that
+they are not infinitely mutually-founded. In this case, the
+extensional closure will be reduced to a finite structure
+and there will be an algorithm for comparing these
+structures provided they are reduced to canonical form.
+ \par In general, it is not possible at this stage to canonize the representation of a structure that is a union
+of structures of all sets of a given class. To canonize
+the representation of such structures requires a separate
+investigation of the conditions under which this may be
+possible.
+The embedding of structures in hereditarily finite sets
+and natural numbers (Fig. 1), using Ackermann coding,
+gives a structure isomorphic to the Rado graph [62]
+which is universal for any graph, i.e. it allows us to
+isomorphically enclose any graph and its supergraphs.
+Stability is one of the important properties of Rado
+Graph has. There are known studies of universal uncountable structures and corresponding theories including studies of the property of their stability [60]. As for
+uncountable structures [31] associated with operational
+semantics [16], [55] one direction of research is to study
+an approach based on the use of decision procedures
+without the presence of enumeration procedures as well
+as the use of Büchi automata [61] and their hierarchy.
+\par Using the considered classes of structures, one can
+represent arbitrary finite graph, pseudograph, multigraph, metagraph, hypergraph structures, including abstract simplicial complexes [28], their combinations and
+others.
+\par The applied value of the considered classes is the
+possibility of algorithmic construction of canonical forms
+(representations) of knowledge structures.
+
+
+\begin{center} \RomanNumeralCaps{4. }  Similarity, proximity, other attribute and invariants
+of structures of meaning space and corresponding
+models
+\end{center}
+
+The analysis of structural properties implies consideration of topological relations and relations of similarity
+(similarity and analogies) and difference. These relations
+can be algorithmically realized within the framework of
+the knowledge specification model in accordance with the knowledge integration model. The knowledge specification model, by considering finite structures, allows for
+the decidability of the corresponding analysis algorithms.
+\par As for the similarity relations, they can be formed from
+property detection relations or non-detection relations.
+A property detection relation itself can be a similarity
+relation when the property itself is revealed in its specification (i.e., the relation is reflexive); as a rule, such
+relations are transitive. If a property is not revealed in
+its specification, but is revealed in other structures, then
+all these structures can be united into a class of (pairwise)
+similar structures.
+In the first case, such relations can be reduced to the
+identification of full or partial embeddings, and morphisms: isomorphic, homomorphic or homeomorphic
+embedding.
+
+\par The composition of two binary similarity relations is
+a binary similarity relation.
+
+\par The union of two \textit{ij}-similarity relations is a \textit{ij}-similarity relation.
+
+\par The intersection of two \textit{ij}-similarity relations is a \textit{ij}-similarity relation.
+\par The difference of a \textit{ij}-similarity relation and a \textit{ij}-difference relation is a \textit{ij}-similarity relation.
+\par The difference of two \textit{ij}-similarity relations, the first
+of which is a subset of the second, is a \textit{ij}-difference
+relation.
+\par The difference of a \textit{ij}-difference relation and a second
+relation is a \textit{ij}-difference relation.
+\par The difference of two \textit{ij}-difference relations is a \textit{ij}-difference relation.
+\par The union of two \textit{ij}-difference relations is a \textit{ij}-difference relation.
+\par The intersection of two \textit{ij}-difference relations is a \textit{ij}-difference relation.
+\par In the second case, similarity can be formed as an
+equivalence relation or a partial order relation on the set
+of structures for which no enumerated embeddings are
+identified (in the first case).
+\par Topological properties [47] can be investigated
+through the consideration of operations on structures that
+correspond to topological closure.
+\par Among the topological similarities we can distinguish:
+similarity on the inclusion of closures, similarity on the
+inclusion of derived sets, similarity on the inclusion of
+touch points and others.
+\par Among topological similarities we can distinguish:
+similarity by equivalence of closures, similarity by equivalence of derived sets, similarity by equivalence of touch
+points and others.
+\par In addition to search operations for extensional closures, we can identify closure operations on the class of
+automorphic elements of the structure.
+ \par It is also possible to identify search operations by a single (simple) pattern (reverse homomorphism) in extensional closures distancedefined neighborhood of a concept, and
+
+
+ 
+ \end{multicols}
+
+    
+
+ \begin{figure}[H]
+     \centering
+         \includegraphics[width=1\linewidth]{image.png}
+         \caption{General finite structures classes.}
+ \end{figure}
+ 
+\begin{multicols}{2}
+
+
+
+
+
+all elements incident to the concept must be all elements of the
+automorphism class in this neighborhood. Among such
+neighborhoods we can choose a maximal neighborhood.
+The corresponding neighborhood can be considered as
+a closed set if it is not included in any other such
+neighborhood. In this case, the search operation on the
+corresponding pattern can also be considered as a closure
+operation.
+\par The number of mappings of a pseudograph to the
+ordinal scale distinguishable with precision up to the
+order of vertices does not exceed  $|\textit{V}|^{|\textit{V}|}$. $|\textit{V}|^{|\textit{V}|}$.
+
+The number of mappings of the pseudograph to the metric scale distinguishable with order-ofmagnitude accuracy of pairwise distances does not
+exceed ($|\textit{V}^2| - |\textit{V}|)^{(|\textit{V}^ 2| - |\textit{V}|)}$ 
+(k-ary generalized distances - ($|\textit{V}^ k| - |\textit{V}|)^{(|\textit{V}^k| - |\textit{V}|)}$).
+
+For finite pseudographs and other representations of
+\textit{G} for which the smallest \textit{A} is found:
+ \[ G \in A^{(+_7^\ast)} \] 
+a quantitative attribute model can be based on the following class of quantitative feature:
+ \[ \mathbb{N} \textit{r}_+{^A^{(+_7^\ast)}}\]
+where
+\[ \mathbb{R} \subseteq \mathbb{N} \textit{r} \]
+
+All closures defined on finite structures are finite. Finite structures, including finite (extensional) closures,
+have the following (global) characteristics: length, width,
+graph dimension, neg-entropy, sets (sets) of local characteristics and others.
+Global characteristics can be considered as invariants
+[17], [68], on the basis of which characteristics similarity
+or proximity measures (metrics or pseudo-metrics) can
+be calculated.
+Local (conditional) numerical characteristics include:
+centrality, metrics [10] and others.
+Another example of numerical features are measures
+of scalar and coscalar product for introorthogonal sets
+considered in taxonomy management problems \textbf{\lbrack} \textbf{\rbrack}.
+ 
+\end{multicols}
+
+
+
+
+\end{document}
