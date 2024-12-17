@@ -163,7 +163,7 @@ git push origin <название ветки>
       - программа завершает выполнение с кодом 0.
 
 #### Пример кода:
-````rudy
+```cpp
 #include<iostream>
 #include<vector>
 #include <algorithm>
@@ -278,7 +278,9 @@ int main()
 	}
 	return 0;
 }
-````
+```
+
+
 
   
 
