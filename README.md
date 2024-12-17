@@ -161,7 +161,124 @@ git push origin <название ветки>
             - Выводим результат.
    9. Завершение работы программы:
       - программа завершает выполнение с кодом 0.
-      
+
+#### Пример кода:
+````rudy
+#include<iostream>
+#include<vector>
+#include <algorithm>
+
+using namespace std;
+
+bool NFact(const vector<vector<int>>& incMat, int n)
+{
+	int ver = incMat.size();
+
+	vector<int> inDeg(ver, 0);
+	vector<int> outDeg(ver, 0);
+
+	for (int i = 0; i < ver; i++)
+	{
+		int ed = incMat[i].size();
+		for (int j = 0; j < ed; j++)
+		{
+
+			if (incMat[i][j] == -1)
+			{
+				outDeg[i]++;
+			}
+			else if (incMat[i][j] == 1)
+			{
+				inDeg[i]++;
+			}
+		}
+	}
+	vector<int> od(ver, 0);
+	for (int i = 0, j = 0; i < ver; i++)
+	{
+		if (inDeg[i] == outDeg[i])
+		{
+			od[j] = inDeg[i];
+			j++;
+		}
+		
+	}
+	sort(od.begin(), od.end());
+	if (od[od.size() - 1] == n) {
+		return true;
+	}
+	else return false;
+	
+}
+
+vector<vector<int>> inpMat(int ver, int ed)
+{
+	vector<vector<int>> mat(ver, vector<int>(ed));
+
+	cout << "Введите матрицу инцидентности по стокам:" << endl;
+	for (int i = 0; i < ver; i++)
+	{
+		for (int j = 0; j < ed; j++)
+		{
+			cin >> mat[i][j];
+		}
+	}
+	return mat;
+}
+
+void printMat(const vector<vector<int>>& mat)
+{
+	for (const auto& row : mat)
+	{
+		for (int val : row)
+		{
+			cout << val << " ";
+		}
+		cout << endl;
+	}
+}
+
+int main()
+{
+	setlocale(LC_ALL, "rus");
+
+	int exaConst;
+
+	cout << "Введите количество примеров для проверки: ";
+	cin >> exaConst;
+
+	for (int example = 1; example <= exaConst; example++)
+	{
+		cout << "Пример " << example << ":" << endl;
+
+
+		int ver, ed, n;
+		cout << "Введите количество вершин: ";
+		cin >> ver;
+		cout << "Введите количество рёбер: ";
+		cin >> ed;
+
+		auto incMat = inpMat(ver, ed);
+
+		cout << "Введите значения n для проверки n-фактора: ";
+		cin >> n;
+
+		cout << "Матрица инцидентности: " << endl;
+		printMat(incMat);
+
+		if (NFact(incMat, n))
+		{
+			cout << "n-фактор существует." << endl;
+		}
+		else
+		{
+			cout << "n-фактор не существует." << endl;
+		}
+		cout << "....................................." << endl;
+	}
+	return 0;
+}
+````
 
   
 
